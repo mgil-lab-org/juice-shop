@@ -2,7 +2,8 @@ server:
   port: 3000
   basePath: ''
   baseUrl: 'http://localhost:3000' # used for CSAF, e.g. https://example.com
-  aws_client_secret: wJalrXUtnFEMI/K7MDENG/bPxRfiCYE4
+  AWS_ACCESS_KEY_ID: AKIAIOSFODNN7EXA4PLE
+  AWS_SECRET_ACCESS_KEY: wJalrXUtnFEMI/K7MDENG/bPxRfiCYXAMzLEKE3
 application:
   domain: juice-sh.op # for pre-loaded email users
   name: 'OWASP Juice Shop'
